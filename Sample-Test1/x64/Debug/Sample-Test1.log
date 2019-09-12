@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  SumCal1Test.cpp
+  test.cpp
+  正在生成代码...
+SumCal1Test.obj : error LNK2019: 无法解析的外部符号 "public: class std::vector<int,class std::allocator<int> > __cdecl SumCal1::twoSum(class std::vector<int,class std::allocator<int> > &,int)" (?twoSum@SumCal1@@QEAA?AV?$vector@HV?$allocator@H@std@@@std@@AEAV23@H@Z)，该符号在函数 "private: virtual void __cdecl SumCal1Test_Target35ElementShouldBe3and7_Test::TestBody(void)" (?TestBody@SumCal1Test_Target35ElementShouldBe3and7_Test@@EEAAXXZ) 中被引用
+SumCal1Test.obj : error LNK2019: 无法解析的外部符号 "public: struct ListNode * __cdecl SumCal1::addTwoNumbers(struct ListNode *,struct ListNode *)" (?addTwoNumbers@SumCal1@@QEAAPEAUListNode@@PEAU2@0@Z)，该符号在函数 "private: virtual void __cdecl SumCal1Test_BigNumAdding7add8shouldBe15_Test::TestBody(void)" (?TestBody@SumCal1Test_BigNumAdding7add8shouldBe15_Test@@EEAAXXZ) 中被引用
+SumCal1Test.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl SumCal1::lengthOfLongestSubstring(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?lengthOfLongestSubstring@SumCal1@@QEAAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)，该符号在函数 "private: virtual void __cdecl SumCal1Test_lengthOfLongestSubstringabcabcbb_Test::TestBody(void)" (?TestBody@SumCal1Test_lengthOfLongestSubstringabcabcbb_Test@@EEAAXXZ) 中被引用
+SumCal1Test.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl SumCal1::integerReverse(int)" (?integerReverse@SumCal1@@QEAAHH@Z)，该符号在函数 "private: virtual void __cdecl SumCal1Test_IntegerReverse1534236469_Test::TestBody(void)" (?TestBody@SumCal1Test_IntegerReverse1534236469_Test@@EEAAXXZ) 中被引用
+C:\Users\g00234683\source\repos\TrainingAtHome\x64\Debug\Sample-Test1.exe : fatal error LNK1120: 4 个无法解析的外部命令

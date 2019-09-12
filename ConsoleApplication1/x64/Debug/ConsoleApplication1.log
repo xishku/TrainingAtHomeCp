@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+  SumCal1.cpp
+  正在生成代码...
+C:\Users\g00234683\source\repos\TrainingAtHome\ConsoleApplication1\SumCal1.cpp(1,1): warning C4819:  该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ConsoleApplication1.vcxproj -> C:\Users\g00234683\source\repos\TrainingAtHome\x64\Debug\ConsoleApplication1.exe

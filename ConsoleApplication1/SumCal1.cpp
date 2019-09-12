@@ -240,7 +240,7 @@ nums2 = [3, 4]
 ***/
 double SumCal1::findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 	
-	return 0.0;
+	return 0.1;
 }
 
 /***

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Executable>C:\Users\g00234683\source\repos\ConsoleApplication1\Debug\Sample-Test1.exe</Executable>
+  <Executable>C:\Users\g00234683\source\repos\TrainingAtHome\Debug\Sample-Test1.exe</Executable>
   <TestDurations>
     <TestDuration Test="SumCal1Test.Target35ElementShouldBe3and7" Duration="1" />
     <TestDuration Test="SumCal1Test.BigNumAdding7add8shouldBe15" Duration="1" />
