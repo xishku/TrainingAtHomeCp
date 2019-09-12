@@ -1,0 +1,6 @@
+﻿  SumCal1.cpp
+C:\Users\g00234683\source\repos\ConsoleApplication1\ConsoleApplication1\SumCal1.cpp(1,1): warning C4819:  该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\g00234683\source\repos\ConsoleApplication1\ConsoleApplication1\SumCal1.cpp(22,20): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\g00234683\source\repos\ConsoleApplication1\ConsoleApplication1\SumCal1.cpp(25,25): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\g00234683\source\repos\ConsoleApplication1\ConsoleApplication1\SumCal1.cpp(138,20): warning C4018:  “<”: 有符号/无符号不匹配
+  ConsoleApplication1.vcxproj -> C:\Users\g00234683\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exe
