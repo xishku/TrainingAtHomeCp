@@ -16,5 +16,9 @@
     <TestDuration Test="SumCal1Test.IntegerReverse1900" Duration="1" />
     <TestDuration Test="TestCaseName.TestName" Duration="1" />
     <TestDuration Test="SumCal1Test.IntegerReverseINTMAX" Duration="1" />
+    <TestDuration Test="SumCal1Test.isPalindrome0" Duration="1" />
+    <TestDuration Test="SumCal1Test.isPalindrome121" Duration="1" />
+    <TestDuration Test="SumCal1Test.isPalindrome121minus" Duration="1" />
+    <TestDuration Test="SumCal1Test.isPalindrome123456" Duration="1" />
   </TestDurations>
 </GtaTestDurations>

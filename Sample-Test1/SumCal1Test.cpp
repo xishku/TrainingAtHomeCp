@@ -56,6 +56,24 @@ TEST_F(SumCal1Test, BigNumAdding7add8shouldBe15) {
 	}
 }
 
+TEST_F(SumCal1Test, isPalindrome0) {
+	EXPECT_EQ(true, sCal1.isPalindrome(0));
+}
+
+TEST_F(SumCal1Test, isPalindrome121) {
+	EXPECT_EQ(true, sCal1.isPalindrome(121));
+}
+
+TEST_F(SumCal1Test, isPalindrome121minus) {
+	EXPECT_EQ(false, sCal1.isPalindrome(-121));
+}
+
+TEST_F(SumCal1Test, isPalindrome123456) {
+	EXPECT_EQ(false, sCal1.isPalindrome(123456));
+}
+
+
+
 TEST_F(SumCal1Test, lengthOfLongestSubstringabcabcbb) {
 	EXPECT_EQ(1, 1);
 	EXPECT_TRUE(true);

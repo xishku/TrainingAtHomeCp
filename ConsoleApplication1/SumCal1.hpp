@@ -12,6 +12,10 @@ struct ListNode {
 class SumCal1
 {
 public:
+	int strStr(string haystack, string needle);
+	int removeElement(vector<int>& nums, int val);
+	int removeDuplicates(vector<int>& nums);
+	bool isPalindrome(int x);
 	std::vector<int> twoSum(std::vector<int>& nums, int target);
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 	int lengthOfLongestSubstring(std::string s);

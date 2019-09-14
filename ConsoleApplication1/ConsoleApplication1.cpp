@@ -4,9 +4,42 @@
 #include <iostream>
 #include <vector>
 #include "SumCal1.hpp"
+#include <string>
 
 int main()
 {
+	SumCal1 sCal1;
+	std::cout << sCal1.strStr("Hello world!", "lo5") << std::endl;
+	if (1 == 1)
+	{
+		return 0;
+	}
+	std::vector<int> sortNumvec;
+	
+	sortNumvec.push_back(1);
+	sortNumvec.push_back(1);
+	sortNumvec.push_back(5);
+	sortNumvec.push_back(2);
+	sortNumvec.push_back(3);
+	sortNumvec.push_back(5);
+	
+	int len = sCal1.removeElement(sortNumvec, 5);
+	std::cout << len << std::endl;
+	for (int i = 0; i < len; i++)
+	{
+		std::cout << sortNumvec.at(i) << std::endl;
+	}
+
+
+	if (1 == 1)
+	{
+		return 0;
+	}
+	std::cout << sCal1.isPalindrome(121) << std::endl;
+	std::cout << sCal1.isPalindrome(123456) << std::endl;
+	
+
+
 	std::vector<int> numVer;
 
 	for (int i = 0; i < 100; i++)
@@ -23,7 +56,7 @@ int main()
 
 
 	std::vector<int> inNums = { 1, 11, 111, 2, 22, 222, 3, 33, 333 };
-	SumCal1 sCal1;
+	
 	std::vector<int> outNums = sCal1.twoSum(inNums, 35);
 
 	for (std::vector<int>::const_iterator it = outNums.begin();
